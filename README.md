@@ -1,21 +1,168 @@
-<h2 align="left">Hi 👋! My name is Prashanth and I'm a Data Analyst from Hyderbabad</h2>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashanth Thota | Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        section {
+            margin: 2rem auto;
+            max-width: 1200px;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .intro h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .intro p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: scale(1.02);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-card .content {
+            padding: 1rem;
+        }
+        .project-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .project-card p {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            margin: 0.5rem 0;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Prashanth | Data Analyst</div>
+    </header>
 
-###
+    <!-- Intro Section -->
+    <section class="intro">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a Certified Data Analyst with expertise in SQL, Power BI, Excel, and Python—turning raw data into meaningful insights.</p>
+    </section>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-</div>
+    <!-- Projects Section -->
+    <section>
+        <h2>Featured Projects</h2>
+        <div class="projects">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="images/housing-banner-01.jpg" alt="Data Cleaning in SQL">
+                <div class="content">
+                    <h2>Data Cleaning in SQL</h2>
+                    <p>Transformed raw housing data into usable datasets for analysis using SQL Server.</p>
+                    <a href="https://github.com/NidhiSinghAnalyst/Data-Cleaning-Project-sql" class="button">View Project</a>
+                </div>
+            </div>
 
-###
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="images/download.jpg" alt="Data Exploration in SQL">
+                <div class="content">
+                    <h2>Data Exploration in SQL</h2>
+                    <p>Explored COVID-19 datasets, uncovering trends and insights using SQL queries.</p>
+                    <a href="https://github.com/NidhiSinghAnalyst/Exploratory-data-analysis-project-sql" class="button">View Project</a>
+                </div>
+            </div>
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/prashanth-thota-6b3682210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="images/tabdownload.png" alt="Tableau Projects">
+                <div class="content">
+                    <h2>Tableau Projects</h2>
+                    <p>Visualized Airbnb dataset, analyzing key metrics for business insights.</p>
+                    <a href="https://github.com/NidhiSinghAnalyst/Tableau-Airbnb-project" class="button">View Project</a>
+                </div>
+            </div>
 
-###
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="images/housingdata.jpeg" alt="Housing Price Analysis">
+                <div class="content">
+                    <h2>Housing Price Analysis</h2>
+                    <p>Predicted housing prices using statistical modeling and R.</p>
+                    <a href="https://github.com/NidhiSinghAnalyst/Housing-price-analysis-using-R" class="button">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="images/PowerBI.png" alt="Power BI Dashboard">
+                <div class="content">
+                    <h2>Power BI Dashboard</h2>
+                    <p>Developed a Data Professional Survey Dashboard using Power BI.</p>
+                    <a href="https://github.com/NidhiSinghAnalyst/Power-BI" class="button">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p><b>Email:</b> <a href="mailto:prashanththota03@gmail.com">prashanththota03@gmail.com</a></p>
+        <p><b>LinkedIn:</b> <a href="" target="_blank">LinkedIn Profile</a></p>
+    </section>
+</body>
+</html>
