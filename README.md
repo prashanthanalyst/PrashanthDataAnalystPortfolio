@@ -23,7 +23,7 @@
                 <div class="content">
                     <h2>Data Exploration in SQL</h2>
                     <p>Explored Movie dataset, uncovering trends and insights using SQL queries.</p>
-                    <a href="\" class="button">View Project</a>
+                    <a href="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/Project%201.txt" class="button">View Project</a>
                 </div>
             </div>
           
