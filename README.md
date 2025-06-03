@@ -19,11 +19,27 @@
         <div class="projects">
             <!-- Project 1 -->
             <div class="project-card">
-                <img src="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/Film.jpg" alt="EDA">
+                <img src="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/Movie.jpg" alt="EDA">
                 <div class="content">
                     <h2>Data Exploration in SQL</h2>
                     <p>Explored Movie dataset, uncovering trends and insights using SQL queries.</p>
-                    <a href="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/Project%201.txt" class="button">View Project</a>
+                    <a href="https://github.com/prashanthanalyst/DataExploration/tree/main" class="button">View Project</a>
+                </div>
+                <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/Employees.jpg" alt="EDA">
+                <div class="content">
+                    <h2>Database Creation and Workforce Analysis</h2>
+                    <p>Established an employee database and conducted exploratory data analysis </p>
+                    <a href="https://github.com/prashanthanalyst/SQL" class="button">View Project</a>
+                </div>
+                 <!-- Project 3 -->
+            <div class="project-card">
+                <img src="https://github.com/prashanthanalyst/PrashanthDataAnalystPortfolio/blob/main/PBID.jpg" alt="EDA">
+                <div class="content">
+                    <h2>Power BI Dashboard</h2>
+                    <p>Developed a dynamic and interactive dashboard for the manufacturing industry</p>
+                    <a href="https://github.com/prashanthanalyst/Power-BI" class="button">View Project</a>
                 </div>
             </div>
              </section>
